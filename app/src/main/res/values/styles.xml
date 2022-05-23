@@ -1,0 +1,58 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="android:windowBackground">@color/colorPrimary</item>
+        <item name="android:textColor">@color/colorPrimaryTextColor</item>
+
+        <!-- android:buttonStyle for v21+ and buttonStyle for the rest -->
+        <item name="buttonStyle">@style/MyCustomButton</item>
+        <item name="android:buttonStyle">@style/MyCustomButton</item>
+
+        <item name="toolbarStyle">@style/MyToolBar</item>
+        <item name="android:toolbarStyle">@style/MyToolBar</item>
+
+    </style>
+
+    <style name="MyCustomButton" parent="Base.Widget.AppCompat.Button">
+        <item name="android:background">@color/colorButtonBackground</item>
+        <item name="android:textColor">@color/colorButtonText</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+    </style>
+
+    <style name="MyToolBar" parent="Base.Widget.AppCompat.Toolbar">
+        <item name="android:background">@color/colorToolbarBackground</item>
+    </style>
+
+    <style name="MainScreenTextViewStyle" parent="AppTheme">
+        <item name="android:textSize">20dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="NavigationViewStyle">
+        <item name="android:textSize">20sp</item> <!-- menu item text size-->
+        <item name="android:listPreferredItemHeightSmall">40dp</item><!-- menu item height-->
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="FullscreenTheme" parent="AppTheme">
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="metaButtonBarStyle">?android:attr/buttonBarStyle</item>
+        <item name="metaButtonBarButtonStyle">?android:attr/buttonBarButtonStyle</item>
+    </style>
+
+</resources>

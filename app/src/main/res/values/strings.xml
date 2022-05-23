@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">BoosterApp</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="title_activity_welcome">WelcomeActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_questionnaire">QuestionnaireActivity</string>
+    <string name="title_activity_total_score">TotalScoreActivity</string>
+    <string name="title_activity_user_detail">UserDetailActivity</string>
+    <string name="title_activity_end">EndActivity</string>
+    <string name="title_activity_investertype">InvesterTypeActivity</string>
+
+    <string name="mainText">The application helps you find out which type of investor you are. Use the menu to access the features.</string>
+    <string name="welcomeButtonText">Welcome!</string>
+    <string name="companyNameText">Booster</string>
+
+    <string name="questionNumberFormat">Question %s</string>
+    <string name="slidingMenuHeadingText">Menu</string>
+    <string name="slidingMenuSubHeadingText">Click on any option.</string>
+
+    <string name="questionNextButtonText">Next</string>
+
+    <string name="yourTotalScoreDesc">Your Total Score is</string>
+    <string name="youAreAnInvesterTypeDesc">You are a </string>
+    <string name="youAreAnInvesterType">"%s" investor.</string>
+    <string name="totalScoreButtonText">Show</string>
+    <string name="spinnerAnswerDefaultText">Select Your Choice</string>
+
+    <string name="username">Name</string>
+    <string name="email">Email</string>
+    <string name="phone">Phone</string>
+    <string name="btnUserDetailSubmit">Submit</string>
+    <string name="nameEmptyError">Name cannot be empty!</string>
+    <string name="invalidEmailError">Please enter a valid email!</string>
+    <string name="emailEmptyError">Email cannot be empty!</string>
+    <string name="invalidPhoneNumberError">Please enter a valid phone number!</string>
+    <string name="phoneNumberEmptyError">Phone number cannot be empty!</string>
+
+    <string name="submitName">Name : %s</string>
+    <string name="submitEmail">Email : %s</string>
+    <string name="submitPhone">Phone : %s</string>
+
+</resources>

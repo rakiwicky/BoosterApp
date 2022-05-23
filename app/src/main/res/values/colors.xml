@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#9ed07c</color>
+    <color name="colorPrimaryBright">#ffdd55</color>
+    <color name="colorPrimaryTextColor">#007fc4</color>
+
+    <color name="colorButtonBackground">#007fc4</color>
+    <color name="colorButtonText">#f5f6f7</color>
+
+    <color name="colorToolbarBackground">#007fc4</color>
+
+    <color name="colorSlidingMenuHeaderBackground">#ffdd55</color>
+    <color name="colorSlidingMenuHeaderText">#007fc4</color>
+    <color name="colorSlidingMenuBackground">#007fc4</color>
+    <color name="colorSlidingMenuItemText">#f5f6f7</color>
+</resources>
